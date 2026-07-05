@@ -26,6 +26,12 @@ export const BANKS = {
       bg_xmas: { name: "Ahorro Navidad", type: "special" },
       bg_emergency: { name: "Fondo Emergencia", type: "savings" },
     },
+    cards: {
+      visa_debito: { name: "Visa Debito" }
+    },
+    others: {
+      yappy_mobile: { name: "Yappy" }
+    }
   },
   bac: {
     id: "bac",
