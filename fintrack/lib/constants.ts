@@ -20,8 +20,8 @@ export const BANKS = {
     name: "Banco General",
     color: "#C9A84C",
     accounts: {
-      bg_salary: { name: "Cuenta Salario", type: "checking" },
-      bg_main: { name: "Cuenta Principal", type: "checking" },
+      bg_salary: { name: "Cuenta Salario", type: "savings" },
+      bg_main: { name: "Cuenta Principal", type: "savings" },
       bg_savings: { name: "Cuenta Ahorro", type: "savings" },
       bg_xmas: { name: "Ahorro Navidad", type: "special" },
       bg_emergency: { name: "Fondo Emergencia", type: "savings" },
@@ -65,9 +65,9 @@ export const BUDGET_DEFAULTS = {
   buffer: 15,
 } as const;
 
-export const WEEKLY_SPLITS = [30, 25, 25, 20] as const;
+// export const WEEKLY_SPLITS = [30, 25, 25, 20] as const;
 
-export const PAYDAY = 13;
+export const PAYDAY = [15, 30];
 
 export const CATEGORY_COLORS: Record<string, string> = {
   vivienda: "#4A9EFF",

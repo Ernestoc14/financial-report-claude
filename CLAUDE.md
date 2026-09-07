@@ -54,4 +54,4 @@ Tailwind v4 — uses `@import "tailwindcss"` in `globals.css` (no `tailwind.conf
 - `GoalsView` — savings goals with progress and monthly projection
 - `BudgetView` — per-category % allocation table + weekly spending plan
 
-The pay cycle resets on day 13 of each month (`PAYDAY = 13`). `paydayInfo()` in the prototype computes days since/until last/next payday and which weekly slice (30/25/25/20) is current.
+The pay check is biweekly and the cycle resets on day 15 and 30 of each month (`PAYDAY = [15, 30]`). `paydayInfo()` in the prototype computes days since/until last/next payday and which weekly slice (30/25/25/20) is current.

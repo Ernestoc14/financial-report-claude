@@ -35,7 +35,7 @@ const menu: MenuGroup[] = [
     title: "Finanzas",
     items: [
       { title: "Gastos", icon: Receipt, href: "/gastos" },
-      { title: "Cuentas", icon: Landmark, href: "/cuentas" },
+      { title: "Cuentas y Tarjetas", icon: Landmark, href: "/cuentas-tarjetas" },
       { title: "Presupuesto", icon: Wallet, href: "/presupuesto" },
     ],
   },

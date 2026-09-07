@@ -1,3 +1,4 @@
+import {getMonthWeekLabel} from '@/lib/date-utils'
 export const metadata = { title: "Dashboard · FinTrack" };
 
 export default function DashboardPage() {
@@ -6,7 +7,7 @@ export default function DashboardPage() {
       <div className="mb-8">
         <h1 className="text-2xl font-semibold text-foreground">Dashboard</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Junio 2026 · Semana 3 de 4
+          {getMonthWeekLabel()}
         </p>
       </div>
 

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code - Archivos locales o de memoria personal
+CLAUDE.local.md
+.claude/CLAUDE.md
